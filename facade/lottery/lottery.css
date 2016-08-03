@@ -1,0 +1,22 @@
+#lotteryTicketButton {
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+}
+
+.ticket {
+  background-color: yellow;
+  border: solid 1px #333;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px #777;
+  float: left;
+  height: 44px;
+  line-height: 44px;
+  margin: 5px;
+  text-align: center;
+  width: 44px;
+}
+
+.clear {
+  clear: both;
+}
