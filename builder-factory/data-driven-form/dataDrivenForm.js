@@ -44,13 +44,14 @@ var dataDrivenForm = (function () {
   }
 
   function init() {
-    var $form = $('form');
+    var html = '';
     _.each(dataDrivenForm.parts.data, function (part) {
       var elementHTML = formElementHTMLFactory(part);
       if (elementHTML && elementHTML.length) {
-        $form.append(elementHTML);
+        html += elementHTML;
       }
     });
+    $('form').append(html);
   }
 
   return {
